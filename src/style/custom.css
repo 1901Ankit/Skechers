@@ -1,0 +1,140 @@
+.border_dark {
+  border: 2px solid #c1c1c1;
+}
+.border_right {
+  border-right: 2px solid #c1c1c1;
+}
+
+.fw_bold {
+  font-weight: 900;
+}
+p {
+  margin-bottom: 0 !important;
+}
+.f-13 {
+  font-size: 13px;
+}
+.fw_semibold {
+  font-weight: 600;
+}
+.border_top {
+  border-top: 2px solid #c1c1c1;
+  border-bottom: 2px solid #c1c1c1;
+}
+.text_primary {
+  color: #002d57;
+}
+.f-17 {
+  font-size: 17px;
+}
+.f-11 {
+  font-size: 11px;
+}
+.text_secondary {
+  color: rgb(124, 124, 124);
+}
+.pointer {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: inherit !important;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+.border_bottom {
+  border-bottom: 2px solid #c1c1c1;
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+.link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.f-15 {
+  font-size: 15px;
+}
+.f-11 {
+  font-size: 11px;
+}
+.f-12 {
+  font-size: 12px;
+}
+
+.f-13 {
+  font-size: 13px;
+}
+.f-14 {
+  font-size: 14px;
+}
+.custom_btn:hover {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #002d57;
+}
+.newsfeed_btn:hover {
+  border: 1px solid #ffffff !important;
+}
+
+.react-multiple-carousel__arrow:hover {
+  opacity: 1 !important;
+}
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid #ffffff !important;
+}
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
+  opacity: 0.5 !important;
+}
+.carousel.carousel-slider .control-arrow:hover {
+  opacity: 1 !important;
+  background: rgba(34, 34, 34, 0.812) !important;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid #ffffff !important;
+}
+.carousel.carousel-slider .control-arrow {
+  background: rgba(34, 34, 34, 0.288) !important;
+  border-radius: 50% !important ;
+  height: 50px;
+  padding: 1% !important;
+  position: absolute !important;
+  top: 50% !important;
+  margin: 2%;
+}
+.carousel .control-arrow .control-next:before,
+.carousel.carousel-slider .control-next:before {
+  margin: -10px 6px 0px 3px !important;
+  content: '\f105' !important;
+  font-family: 'FontAwesome';
+  border: none !important;
+  text-align: center !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.carousel .control-arrow .control-prev:before,
+.carousel.carousel-slider .control-prev:before {
+  margin: -10px 6px 0px 3px !important;
+  content: '\f104' !important;
+  font-family: 'FontAwesome';
+  border: none !important;
+  text-align: center !important;
+  display: grid !important;
+  align-items: center !important;
+  place-items: center !important;
+}
+
+.react-multiple-carousel__arrow {
+  z-index: 2 !important;
+}

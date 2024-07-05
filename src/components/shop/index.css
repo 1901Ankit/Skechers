@@ -1,0 +1,30 @@
+.shopheading{
+    font-size: 30px;
+}
+
+@media screen and (min-width:550px) and (max-width:768px) {
+    .shopheading{
+        font-size: 15px;
+    }
+    .shop_btn{
+        width: 130px !important;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .shopheading{
+        font-size: 13px;
+    }
+    .shop_btn{
+        width: 150px !important;
+    }
+}
+
+@media  screen and (min-width:993px) and (max-width:1200px) {
+    .shopheading{
+        font-size: 18px;
+    }
+    .shop_btn{
+        width: 150px !important;
+    }
+}

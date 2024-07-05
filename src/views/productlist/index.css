@@ -1,0 +1,10 @@
+.filter_box {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrowup{
+  border-radius: 16px !important;
+}

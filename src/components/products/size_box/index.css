@@ -1,0 +1,12 @@
+.size_box {
+  border: 1px solid #c1c1c1;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  width: 35px;
+  margin-left: -12px;
+}
+.size_box:hover {
+  background-color: #163055;
+  color: #ffffff;
+}

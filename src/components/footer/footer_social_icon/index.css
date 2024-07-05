@@ -1,0 +1,12 @@
+.footer_icon{
+    filter: grayscale(100%);
+}
+.footer_icon:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+.social_icons{
+    display: flex;
+    align-items: center;
+}
+

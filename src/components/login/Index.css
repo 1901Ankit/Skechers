@@ -1,0 +1,49 @@
+.login_form {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 1px 1px #eee;
+  /* border: 1px solid #c1c1c1; */
+  z-index: 999;
+}
+.login_input {
+  outline: none;
+  border: 1px solid #c1c1c1;
+  padding: 2%;
+  margin-top: 10px;
+  width: 100%;
+}
+.login_input:focus {
+  outline: none;
+}
+label {
+  font-size: 15px;
+}
+.custom_btn {
+  width: 100%;
+  background-color: #000000;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 2%;
+}
+.icon_border {
+  border: 1px solid #000000;
+  width: 25px;
+  height: 35px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.bg_login {
+  background-image: url('../../assests/image/main/loginBg.jpg');
+  height: 100vh;
+}
+
+.signin_btn:hover {
+  color: #000 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #000;
+}
+.create_btn:hover {
+  color: #163055 !important;
+  border: 1px solid #163055;
+  background-color: #ffffff !important;
+}
